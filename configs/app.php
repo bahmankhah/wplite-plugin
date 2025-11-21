@@ -10,7 +10,7 @@ return [
         App\Providers\ShortcodeServiceProvider::class,
     ],
     'version'=>'v1',
-    'name'=>'donapp-core',
+    'name'=>'wplite-plugin',
     'url'=>getenv('APP_URL'),
     'api'=> [
         'namespace'=>'wplite/v1',

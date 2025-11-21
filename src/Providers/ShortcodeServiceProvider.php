@@ -6,7 +6,7 @@ use App\Shortcodes\Hello;
 use WPLite\Provider;
 
 
-class ShortcodeServiceProvider extends Provider
+class ShortcodeServiceProvider extends Provider 
 {
     public function register() {
         Hello::register();
