@@ -1,0 +1,13 @@
+{
+    "name": "hsm/wplite-plugin",
+    "description": "WPLite plugin powered by WPLite",
+    "type": "wordpress-plugin",
+    "require": {
+        "hsm/wplite": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
