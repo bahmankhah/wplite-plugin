@@ -4,24 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60bbde5423fc8e0370e431ed75675ae4",
+    "content-hash": "f5a171807da1af45882b6f3f6ac08e89",
     "packages": [
         {
             "name": "hsm/wplite",
-            "version": "v1.0.3",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bahmankhah/wplite.git",
-                "reference": "043b76da9fc0a2803049a11e00e5b9400afce089"
+                "reference": "7292122fddab7d9a4780f8aa707335ffd91a6c9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bahmankhah/wplite/zipball/043b76da9fc0a2803049a11e00e5b9400afce089",
-                "reference": "043b76da9fc0a2803049a11e00e5b9400afce089",
+                "url": "https://api.github.com/repos/bahmankhah/wplite/zipball/7292122fddab7d9a4780f8aa707335ffd91a6c9d",
+                "reference": "7292122fddab7d9a4780f8aa707335ffd91a6c9d",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/Helpers/main.php"
+                ],
                 "psr-4": {
                     "WPLite\\": "src/"
                 }
@@ -33,15 +40,17 @@
             "description": "WPLite WordPress Framework",
             "support": {
                 "issues": "https://github.com/bahmankhah/wplite/issues",
-                "source": "https://github.com/bahmankhah/wplite/tree/v1.0.3"
+                "source": "https://github.com/bahmankhah/wplite/tree/main"
             },
-            "time": "2025-11-21T11:34:32+00:00"
+            "time": "2025-12-08T22:02:16+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "hsm/wplite": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

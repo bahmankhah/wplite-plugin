@@ -3,7 +3,7 @@
     "description": "WPLite plugin powered by WPLite",
     "type": "wordpress-plugin",
     "require": {
-        "hsm/wplite": "^1.0"
+        "hsm/wplite": "dev-main"
     },
     "autoload": {
         "psr-4": {
